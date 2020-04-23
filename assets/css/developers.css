@@ -1,0 +1,128 @@
+.wrapper 
+{
+    margin: 20px;
+    background: #31394d;
+    -webkit-transition: background .6s ease;
+    transition: background .6s ease;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+}
+  
+.wrapper .profile 
+{
+    margin-top: 2.2em;
+    position: relative;
+}
+
+.wrapper .profile:after 
+{
+    width: 100%;
+    height: 1px;
+    content: ' ';
+    display: block;
+    margin-top: 1.3em;
+    background: #E9EFF6;
+}
+  
+
+.wrapper .profile .thumbnail 
+{
+    width: 204px;
+    height: 204px;
+    display: -webkit-box;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    border-radius: 100%;
+    box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .profile .devname 
+{
+    color: #FDFEFF;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+  
+.wrapper .profile .title 
+{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: .7em;
+    letter-spacing: 1.5px;
+}
+
+.wrapper .social-icons 
+{
+    display: -webkit-box;
+    display: flex;
+    margin-top: 1.2em;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+  
+.wrapper .social-icons .icon 
+{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+  
+.wrapper .social-icons .icon a 
+{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+  
+.wrapper .social-icons .icon .globe-link 
+{
+    background: -webkit-gradient(linear, left top, right bottom, from(#C90A6D), to(#FF48A0));
+    background: linear-gradient(to bottom right, #C90A6D, #FF48A0);
+}
+  
+.wrapper .social-icons .icon .facebook-link
+{
+    background: -webkit-gradient(linear, left top, right bottom, from(#5E5AEC), to(#3F9EFC));
+    background: linear-gradient(to bottom right, #5E5AEC, #3F9EFC);
+}
+  
+.wrapper .social-icons .icon .twitter-link 
+{
+    background: -webkit-gradient(linear, left top, right bottom, from(#1DA1F2), to(#639FF9));
+    background: linear-gradient(to bottom right, #1DA1F2, #639FF9);
+  
+}
+
+.wrapper .social-icons .icon .github-link 
+{
+    background: -webkit-gradient(linear, left top, right bottom, from(#212121), to(#607d8b));
+    background: linear-gradient(to bottom right, #212121, #607d8b);
+  
+}
+
+.wrapper .social-icons .icon .linkedin-link 
+{
+    background: -webkit-gradient(linear, left top, right bottom, from(#2867B2), to(#2867B2));
+    background: linear-gradient(to bottom right, #2867B2, #2867B2);
+  
+}
+.wrapper .social-icons .icon .instagram-link 
+{
+    background: -webkit-gradient(linear, left top, right bottom, from( #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80), to(#FF48A0));
+    background: linear-gradient(to bottom right, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80,  #FF48A0);
+}

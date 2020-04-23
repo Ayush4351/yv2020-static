@@ -1,0 +1,31 @@
+.sticky-container
+{
+    font-size: medium;
+    text-align: justify;
+}
+
+.main-post
+{
+    background-size: contain;
+    background-position: center;
+}
+
+.main-post h1
+{
+    font-size: 40px;
+}
+
+.main-post h2
+{
+    font-size: 30px;
+}
+
+.main-post h3
+{
+    font-size: 20px;
+}
+
+.main-post ul li
+{
+    font-size: 19px;
+}

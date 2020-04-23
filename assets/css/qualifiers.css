@@ -1,0 +1,101 @@
+.qualifier-category
+{
+	font-size: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.event
+{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto 3em;
+}
+
+.event__item 
+{
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+	-webkit-flex: 0 1 330px;
+	flex: 0 1 330px;
+}
+
+.event__details-list 
+{
+	text-align: left;
+}
+
+.event--user .event__item 
+{
+	font-family: "Nunito", sans-serif;
+	cursor: default;
+	color: #84697c;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);
+	border-radius: 20px 20px 10px 10px;
+	margin: 1em;
+}
+
+@media screen and (min-width: 66.250em) 
+{
+	.event--user .event__item 
+	{
+		margin: 1em -0.5em;
+	}
+}
+
+.event--user .event__deco 
+{
+	border-radius: 10px 10px 0 0;
+	background: #ef5350;
+	/* padding: 4em 0 0.5em; */
+	position: relative;
+}
+
+.event--user .event__name 
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 25px;
+	color: #fff;
+	line-height: 0.75;
+}
+
+.event--user .event__details-list 
+{
+	margin: 0;
+	padding: 0.25em 0 0em;
+	list-style: none;
+	text-align: center;
+}
+
+.event--user .event__detail 
+{
+    padding: 1em 0;
+    font-size: 15px;
+}
+
+.event--user .event__action 
+{
+	font-weight: bold;
+	margin: auto 3em 2em 3em; 
+	padding: 1em 2em;
+	color: #fff;
+	border-radius: 30px;
+	background: black;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+    text-decoration: none;
+    font-size: 16px;
+}

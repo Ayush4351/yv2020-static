@@ -1,0 +1,255 @@
+@font-face
+{ 
+    font-family: 'Aileron';
+    src: url('../assets/fonts/aileron/aileron_regular_macroman/Aileron-Regular-webfont.eot');
+    src: url('../assets/fonts/aileron/aileron_regular_macroman/Aileron-Regular-webfont?iefix') format('eot'),
+        url('../assets/fonts/aileron/aileron_regular_macroman/Aileron-Regular-webfont.woff') format('woff'),
+        url('../assets/fonts/aileron/aileron_regular_macroman/Aileron-Regular-webfont.ttf') format('truetype'),
+}
+
+html
+{
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar 
+{
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nunito',sans-serif; 
+}
+
+.download
+{
+    padding-top: 10px;
+}
+
+table 
+{
+    border-collapse: collapse;
+}
+
+th 
+{
+    text-align: inherit;
+    font-size: 15px;
+}
+  
+.table 
+{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000;
+}
+   
+.table th,
+.table td 
+{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #e3e6f0;
+    font-size: medium;
+}
+    
+.table thead th 
+{
+    vertical-align: bottom;
+    border-bottom: 2px solid #e3e6f0;
+}
+    
+.table tbody + tbody 
+{
+    border-top: 2px solid #e3e6f0;
+}
+  
+.table-sm th,
+.table-sm td 
+{
+    padding: 0.3rem;
+}
+  
+.table-bordered 
+{
+    border: 1px solid #e3e6f0;
+}
+
+.table-bordered th,
+.table-bordered td 
+{
+    border: 1px solid #e3e6f0;
+}
+
+.table-bordered thead th,
+.table-bordered thead td 
+{
+    border-bottom-width: 2px;
+}
+
+.table-responsive 
+{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive > .table-bordered 
+{
+    border: 0;
+}
+
+.card 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+}
+
+.card-body 
+{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-title 
+{
+    margin-bottom: 0.75rem;
+}
+
+.card-header 
+{
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #ffebee;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.shadow 
+{
+    box-shadow: 0 0.15rem 0.50rem 0 rgba(0,0,0,0.2) !important;
+}
+
+.shadow:hover  
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+}
+
+.font-weight-bold 
+{
+    font-weight: 700 !important;
+}
+
+.text-primary 
+{
+    color: #ef5350 !important;
+}
+
+@media print 
+{
+    *,
+    *::before,
+    *::after 
+    {
+        text-shadow: none !important;
+        box-shadow: none !important;
+    }
+    thead 
+    {
+        display: table-header-group;
+    }
+    tr 
+    {
+        page-break-inside: avoid;
+    }
+    p,
+    h2,
+    h3 
+    {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 
+    {
+        page-break-after: avoid;
+    }
+    @page 
+    {
+        size: a3;
+    }
+    body 
+    {
+        min-width: 992px !important;
+    }
+    .container 
+    {
+        min-width: 992px !important;
+    }
+    
+    .table 
+    {
+      border-collapse: collapse !important;
+    }
+
+    .table td,
+    .table th 
+    {
+      background-color: #fff !important;
+    }
+
+    .table-bordered th,
+    .table-bordered td 
+    {
+      border: 1px solid #dddfeb !important;
+    }
+}
+
+.red
+{
+    background-color: #ffcdd2;
+}
+
+.button3
+{
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #ef5350;
+    text-align: center;
+    transition: all 0.2s;
+}
+    
+.button3:hover
+{
+    background-color: #4095c6;
+}
+    
+@media all and (max-width:30em)
+{
+    .button3
+    {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
