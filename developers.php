@@ -55,7 +55,7 @@
                         </div>
 
                         <div class="icon">
-                            <a href="https://facebook.com/ayush4351" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://facebook.com/ayush4351" target="_blank" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
                         </div>
 
                         <div class="icon">
@@ -82,7 +82,7 @@
                         </div>
 
                         <div class="icon">
-                            <a href="https://www.facebook.com/Subham.jgr" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.facebook.com/Subham.jgr" target="_blank" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
                         </div>
 
                         <div class="icon">
@@ -90,7 +90,7 @@
                         </div>
 
                         <div class="icon">
-                            <a href="https://github.com/SubhamJaguri" class="github-link"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/SubhamJaguri" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
 
                     <div class="social-icons">
                         <div class="icon">
-                            <a href="https://www.facebook.com/bipul.poudel.98" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.facebook.com/bipul.poudel.98" target="_blank" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
                         </div>
 
                         <div class="icon">
@@ -117,7 +117,7 @@
                         </div>
                         
                         <div class="icon">
-                            <a href="https://github.com/bipulpoudel" class="github-link"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/bipulpoudel" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                         </div>
 
                         <div class="icon">
-                            <a href="https://www.facebook.com/satyajiit" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.facebook.com/satyajiit" target="_blank" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
                         </div>
 
                         <div class="icon">
@@ -160,7 +160,7 @@
 
                     <div class="social-icons">
                         <div class="icon">
-                            <a href="#" class="facebook-link"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#" class="facebook-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
                         </div>
                     
                         <div class="icon">
