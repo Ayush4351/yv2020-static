@@ -87,7 +87,7 @@
 		};
     </script>
     <!-- Fontawesome CDN kit -->
-    <script src="https://kit.fontawesome.com/f7c0728646.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/26e6325bab.js" crossorigin="anonymous"></script>
     <!-- Fancybox JS for Gallery -->
     <script src="/assets/lib/fancybox/js/jquery.fancybox.js"></script>
     <!-- Bootstrap Js -->

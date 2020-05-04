@@ -153,28 +153,25 @@
             <div class="col-md-4">
                 <div class="wrapper">
                     <div class="profile">
-                        <img src="/assets/img/developers/bipul.jpg" class="thumbnail">
+                        <img src="/assets/img/developers/havillah.jpg" class="thumbnail">
                         <h3 class="devname">Havillah</h3>
                         <h3 class="title">Graphic Designer</h3>
                     </div>
 
                     <div class="social-icons">
                         <div class="icon">
-                            <a href="#" class="facebook-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://behance.net/havilahs1" class="behance-link" target="_blank"><i class="fab fa-behance"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://dribbble.com/havidesign" class="globe-link" target="_blank"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://in.pinterest.com/havidesign023/" class="pinterest-link" target="_blank"><i class="fab fa-pinterest"></i></a>
                         </div>
                     
                         <div class="icon">
                             <a href="https://www.instagram.com/havi.design/" class="instagram-link"><i class="fab fa-instagram"></i></a>
                         </div>
-
-                        <div class="icon">
-                            <a href="/"><i class="fas fa-globe"></i></a>
-                        </div>
-
-                        <div class="icon">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                        
                     </div>
                 </div>
             </div>

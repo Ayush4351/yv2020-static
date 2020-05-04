@@ -121,6 +121,18 @@
     background: linear-gradient(to bottom right, #2867B2, #2867B2);
   
 }
+.wrapper .social-icons .icon .pinterest-link 
+{
+    background: -webkit-gradient(linear, left top, right bottom, from(#c8232c), to(#c8232c));
+    background: linear-gradient(to bottom right, #c8232c, #c8232c);
+  
+}
+.wrapper .social-icons .icon .behance-link 
+{
+    background: -webkit-gradient(linear, left top, right bottom, from(#053eff), to(#053eff));
+    background: linear-gradient(to bottom right, #053eff, #053eff);
+  
+}
 .wrapper .social-icons .icon .instagram-link 
 {
     background: -webkit-gradient(linear, left top, right bottom, from( #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80), to(#FF48A0));
